@@ -208,7 +208,7 @@
   (pad 24 thru_hole circle (at -13.97 -7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask))
   (model ${KIPRJMOD}/../3d-models/promicro.step
     (offset (xyz 0 0 -9.5))
-    (scale (xyz 1.25 1 1))
+    (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )
 )
