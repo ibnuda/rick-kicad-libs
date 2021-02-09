@@ -23,4 +23,14 @@
   (pad HOLE np_thru_hole circle (at 5.08 0) (size 1.8 1.8) (drill 1.8) (layers *.Cu))
   (pad 2 thru_hole oval (at 3.405 -3.27 29) (size 2.5 4.17) (drill oval 1.5 3.17) (layers *.Cu *.Mask F.SilkS))
   (pad 1 thru_hole oval (at -2.52 -4.79) (size 2.5 3.08) (drill oval 1.5 2.08) (layers *.Cu *.Mask F.SilkS))
+  (model ${KIPRJMOD}/../3d-models/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${KIPRJMOD}/../3d-models/DSA_Keycap_CherryMX.step
+    (offset (xyz 0 0 9.5))
+    (scale (xyz 1.5 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
