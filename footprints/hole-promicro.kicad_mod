@@ -1,0 +1,12 @@
+(module promicro_copy (layer F.Cu) (tedit 60C75FAF)
+  (fp_text reference U1 (at 0 1.625) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.524) (thickness 0.2032)))
+  )
+  (fp_text value ProMicro (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.524) (thickness 0.2032)))
+  )
+  (fp_line (start -33.655 -9.525) (end 15.875 -9.525) (layer Edge.Cuts) (width 0.1))
+  (fp_line (start 15.875 -9.525) (end 15.875 9.525) (layer Edge.Cuts) (width 0.1))
+  (fp_line (start 15.875 9.525) (end -33.655 9.525) (layer Edge.Cuts) (width 0.1))
+  (fp_line (start -33.655 9.525) (end -33.655 -9.525) (layer Edge.Cuts) (width 0.1))
+)
