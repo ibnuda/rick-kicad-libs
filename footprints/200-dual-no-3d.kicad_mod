@@ -1,4 +1,4 @@
-(module 2u-dual (layer F.Cu) (tedit 5F494780)
+(module 200-dual-no-3d (layer F.Cu) (tedit 5F494780)
   (fp_text reference CHERRY (at 0 3.175) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.2)))
   )

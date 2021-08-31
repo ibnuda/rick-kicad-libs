@@ -1,4 +1,4 @@
-(module 1u-minimal (layer F.Cu) (tedit 60098045)
+(module 100-minimal (layer F.Cu) (tedit 60098045)
   (fp_text reference CHERRY (at 0 4) (layer F.SilkS) hide
     (effects (font (size 1.27 1.524) (thickness 0.2032)))
   )
