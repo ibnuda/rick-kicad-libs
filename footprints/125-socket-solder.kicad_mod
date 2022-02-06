@@ -31,4 +31,14 @@
   (pad "1" smd rect (at -6.9 -2.54 180) (size 2 2) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp d59821e6-4030-4065-bd45-c327208bbd0c))
   (pad "2" smd rect (at 5.6 -5.08 180) (size 2 2) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp 2a419547-fbe1-4e45-892d-f306410f3c9d))
   (pad "2" thru_hole circle (at 3.81 2.54 180) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask) (tstamp e7b42e4f-4630-441d-b172-98d978214072))
+  (model ${KIPRJMOD}/../3d-models/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${KIPRJMOD}/../3d-models/DSA_Keycap_CherryMX.step
+    (offset (xyz 0 0 9.5))
+    (scale (xyz 1.25 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
